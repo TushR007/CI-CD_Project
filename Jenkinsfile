@@ -1,8 +1,8 @@
 pipeline {
     agent any
     tools{
-        jdk 'java-11'
-        maven 'maven'
+        jdk 'Java-11'
+        maven 'Maven'
     }
     stages{
         stage('git checkout'){
