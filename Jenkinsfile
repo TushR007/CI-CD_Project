@@ -7,7 +7,7 @@ pipeline {
     stages{
         stage('git checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/ManojKRISHNAPPA/test-1.git'
+                git branch: 'main', url: 'https://github.com/TushR007/CI-CD_Project.git'
             }
         }
         stage('compile'){
