@@ -27,7 +27,7 @@ pipeline {
         }
         stage('Containerisation'){
             steps{
-                sh 'docker run -it -d --name c1 8081:8080 TushR007/CIProj:1'
+                sh 'docker run -it -d --name c1 8081:8080 TushR007/CI-CD_Project:1'
             }
         }
     }
