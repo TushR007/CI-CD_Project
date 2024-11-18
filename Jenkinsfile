@@ -22,7 +22,7 @@ pipeline {
         }
         stage('Build and Tag Dockerfile'){
             steps{
-                sh 'Build -t TushR007/CIProj:1 .'
+                sh 'Build -t TushR007/CI-CD_Project:1 .'
             }
         }
         stage('Containerisation'){
